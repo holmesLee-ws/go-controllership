@@ -247,7 +247,7 @@
 - AFP, FPAC 시험 사양(2025년 1월, 2025B~2031A 회차) — Part I Financial Acumen(Business Partnering 포함), Part II Financial Analysis and Business Support(Analysis and Projections, Models and Analytics, Business Communication): https://www.financialprofessionals.org/docs/librariesprovider6/default-document-library/fpac-test-specifications.pdf (조회 2026-11-14)
 - SEC, Form 10-K General Instructions A.(2) — 회계연도 말 뒤 대형 가속 60일·가속 75일·그 밖 90일. MD&A는 Part II Item 7: https://www.sec.gov/files/form10-k.pdf (조회 2026-11-14)
 - SEC, Form 10-Q General Instructions A.1 — 분기 말 뒤 대형 가속·가속 40일·그 밖 45일. MD&A는 Part I Item 2: https://www.sec.gov/files/form10-q.pdf (조회 2026-11-14)
-- FCA Handbook DTR 4.1(연차 재무보고서, 회계연도 말 뒤 4개월)·DTR 4.2(반기 보고서, 기간 말 뒤 3개월) — 본문 페이지가 열리지 않아 조항 발췌로 확인, 세션 중 재확인: https://www.handbook.fca.org.uk/handbook/DTR/4/1.html (조회 2026-11-14)
+- FCA Handbook DTR 4.1(연차 재무보고서, 회계연도 말 뒤 4개월)·DTR 4.2(반기 보고서, 기간 말 뒤 3개월) — 본문 페이지가 열리지 않아 조항 발췌로 확인 — 변동(세션 중 재확인): https://www.handbook.fca.org.uk/handbook/DTR/4/1.html (조회 2026-11-14)
 - IFRS Foundation, IFRS 8 Operating Segments — 경영진 접근법: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-8-operating-segments/ (조회 2026-11-14)
 - IFRS Foundation, IFRS 18 — 2027년 1월 1일 이후 시작 회계연도, 경영진이 정의한 성과측정치(MPM) 공시: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/ (조회 2026-11-14)
 - IBCS Standards 2.0(2026년 6월 11일 승인, ISO 24896 「Notation for business reporting」과 정렬)과 SUCCESS 규칙: https://www.ibcs.com/standards/ (조회 2026-11-14)

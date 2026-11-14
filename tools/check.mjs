@@ -58,14 +58,14 @@ function checkSources(text) {
   const sec = text.split(/^## 출처\s*$/m)[1];
   if (!sec) return ["출처 절 없음"];
   const items = sec.split("\n").filter((l) => l.startsWith("- "));
+  for (const u of sec.matchAll(/https?:\/\/([^/\s)>]+)/g)) {
+    const host = u[1].toLowerCase().replace(/^www\./, "");
+    if (!OFFICIAL.some((d) => host === d || host.endsWith(`.${d}`))) problems.push(`공식 도메인 밖 출처: ${host}`);
+  }
   if (items.length === 0) problems.push("출처 절에 항목 없음");
   for (const l of items) {
     if (!/https?:\/\//.test(l)) problems.push(`출처 URL 없음: ${l.slice(0, 40)}`);
     if (!/조회 \d{4}-\d{2}-\d{2}/.test(l)) problems.push(`출처 조회일 없음: ${l.slice(0, 40)}`);
-    for (const u of l.matchAll(/https?:\/\/([^/\s)>]+)/g)) {
-      const host = u[1].toLowerCase().replace(/^www\./, "");
-      if (!OFFICIAL.some((d) => host === d || host.endsWith(`.${d}`))) problems.push(`공식 도메인 밖 출처: ${host}`);
-    }
   }
   return problems;
 }
@@ -73,7 +73,8 @@ function checkSources(text) {
 // 구축 기준의 경계 표에서 「걸리는 모듈」을 읽는다.
 function boundaryModules(spec) {
   const ids = new Set();
-  for (const line of spec.split("\n")) {
+  const sec = spec.split(/^## 경계/m)[1]?.split(/^## /m)[0] ?? "";
+  for (const line of sec.split("\n")) {
     const cells = line.split("|").map((c) => c.trim());
     if (cells.length === 6 && /go-/.test(cells[3])) for (const id of cells[4].matchAll(/\b[BCMPKWX]\d+\b/g)) ids.add(id[0]);
   }
@@ -81,7 +82,7 @@ function boundaryModules(spec) {
 }
 
 function findVisualAssets(files) {
-  const allowedJs = /^tools\/.*\.m?js$/;
+  const allowedJs = /^tools\/[^/]+\.mjs$/;
   return files.filter((f) => /\.(html?|css|svg|png|jpe?g|gif|webp|avif)$/i.test(f) || (/\.m?js$/i.test(f) && !allowedJs.test(f)));
 }
 
