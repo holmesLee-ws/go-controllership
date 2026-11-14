@@ -84,7 +84,7 @@
 - 목표: Evaluate — 배부 안 함·매출 기준·사용량 기준·활동 기준 중에서 회사의 결정 목적에 맞는 배부 정책을 고르고 부작용을 예측한다.
 - 만들어 볼 것: 공통비 셋을 두 배부 정책으로 나눈 결과 비교와 정책 메모
 - 국내 근거: 법정 기준 없음 — 세무상 특수관계 회사 사이 비용 분담은 국제조세조정에 관한 법률의 정상가격 원칙과 만난다
-- 글로벌 비교: OECD 이전가격 지침의 그룹 내 용역 비용 분담 논의, 활동기준원가(ABC)
+- 글로벌 비교: 활동기준원가(ABC)와 배부 안 함(공헌이익까지만 책임) 방식의 국제 실무 비교, GMAP 제2판의 「정보는 결정에 관련돼야 한다」 원칙
 - 경계·연결: 원가 배부와 ABC 계산 기법은 go-accounting M2, 이전가격 세무는 go-tax
 
 ### M3 · 사업부·제품·고객 수익성
@@ -92,7 +92,7 @@
 - 핵심 질문: 「적자 제품」을 접으면 정말 회사 이익이 늘어나는가?
 - 목표: Evaluate — 사업부·제품·고객 수익성 보고를 읽고, 배부 방식과 관련원가를 가려 유지·조정·철수 판단에 쓸 숫자를 고른다.
 - 만들어 볼 것: 학습자 회사(또는 사례)의 제품·고객 수익성 표와 경영진 질문 세 개에 대한 답 메모
-- 국내 근거: K-IFRS 제1108호 영업부문(경영진이 내부에서 보는 부문 정보를 외부에 공시하는 구조), 일반기업회계기준의 부문 정보
+- 국내 근거: K-IFRS 제1108호 영업부문(경영진이 내부에서 보는 부문 정보를 외부에 공시하는 구조 — K-IFRS 적용 회사)
 - 글로벌 비교: IFRS 8의 경영진 접근법, 고객 수익성 분석 실무
 - 경계·연결: 관련원가·특별주문·제품 폐지 의사결정 계산은 go-accounting M5, 사업부 성과평가 지표(ROI·잔여이익)는 go-accounting M6, K-IFRS 제1108호 부문 공시의 회계 처리·측정은 go-accounting(여기서는 내부 관리 보고가 외부 부문 공시로 이어지는 연결점까지)
 
@@ -169,7 +169,7 @@
 - 목표: Apply — 이사회가 결정·감독해야 할 안건을 가리고, 그 결정에 필요한 숫자·대안·위험만 담은 자료 구성안을 만든다.
 - 만들어 볼 것: 분기 실적과 예산 변경 안건 하나를 담은 이사회 자료 목차와 핵심 장 한 장
 - 국내 근거: 상법(이사회의 권한과 결의, 재무제표의 이사회 승인, 감사·감사위원회), 상장회사는 거래소의 기업지배구조보고서 공시
-- 글로벌 비교: 영국 FRC의 UK Corporate Governance Code가 이사회에 요구하는 정보 흐름과 비교
+- 글로벌 비교: 미국 상장사 10-K의 MD&A가 이사회·투자자에게 실적 변동을 설명하는 구조, IBCS 표준의 보고 구성 규칙
 - 경계·연결: 위험·통제·감사 결과의 이사회·감사위원회 보고는 go-control G3 — 이 모듈은 실적·예산·계획 안건을 다룬다. 이사회·주주총회 절차의 법적 요건은 go-compliance-and-legal
 
 ### K4 · 대시보드와 보고 설계
@@ -245,8 +245,8 @@
 - AICPA·CIMA, CGMA Competency Framework 2019 edition — 기술·비즈니스·사람·리더십·디지털 다섯 영역: https://www.aicpa-cima.com/resources/download/cgma-competency-framework-2019-edition (조회 2026-11-14)
 - AICPA·CIMA, Global Management Accounting Principles 제2판(2023) — 소통·정보·분석·스튜어드십 네 원칙: https://www.aicpa-cima.com/news/article/aicpa-and-cima-update-global-management-accounting-principles (조회 2026-11-14)
 - AFP, FPAC 시험 사양(2025년 1월, 2025B~2031A 회차) — Part I Financial Acumen(Business Partnering 포함), Part II Financial Analysis and Business Support(Analysis and Projections, Models and Analytics, Business Communication): https://www.financialprofessionals.org/docs/librariesprovider6/default-document-library/fpac-test-specifications.pdf (조회 2026-11-14)
-- SEC, Form 10-K General Instructions A.(2) — 회계연도 말 뒤 대형 가속 60일·가속 75일·그 밖 90일: https://www.sec.gov/files/form10-k.pdf (조회 2026-11-14)
-- SEC, Form 10-Q General Instructions A.1 — 분기 말 뒤 대형 가속·가속 40일·그 밖 45일: https://www.sec.gov/files/form10-q.pdf (조회 2026-11-14)
+- SEC, Form 10-K General Instructions A.(2) — 회계연도 말 뒤 대형 가속 60일·가속 75일·그 밖 90일. MD&A는 Part II Item 7: https://www.sec.gov/files/form10-k.pdf (조회 2026-11-14)
+- SEC, Form 10-Q General Instructions A.1 — 분기 말 뒤 대형 가속·가속 40일·그 밖 45일. MD&A는 Part I Item 2: https://www.sec.gov/files/form10-q.pdf (조회 2026-11-14)
 - FCA Handbook DTR 4.1(연차 재무보고서, 회계연도 말 뒤 4개월)·DTR 4.2(반기 보고서, 기간 말 뒤 3개월) — 본문 페이지가 열리지 않아 조항 발췌로 확인, 세션 중 재확인: https://www.handbook.fca.org.uk/handbook/DTR/4/1.html (조회 2026-11-14)
 - IFRS Foundation, IFRS 8 Operating Segments — 경영진 접근법: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-8-operating-segments/ (조회 2026-11-14)
 - IFRS Foundation, IFRS 18 — 2027년 1월 1일 이후 시작 회계연도, 경영진이 정의한 성과측정치(MPM) 공시: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/ (조회 2026-11-14)
