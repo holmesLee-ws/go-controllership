@@ -6,7 +6,7 @@
 
 ## 시작하기
 
-준비물은 [Git](https://git-scm.com/downloads), [GitHub CLI](https://cli.github.com)(`gh`), [Claude Code](https://code.claude.com) 또는 Claude Desktop입니다(Claude 유료 요금제가 필요합니다). 아래 명령은 터미널(macOS 「터미널」 앱, Windows 「PowerShell」)에 입력합니다. Windows에서 바탕화면이 OneDrive로 옮겨져 있으면 `cd ~/Desktop` 대신 `cd ~/OneDrive/Desktop`일 수 있습니다. 비공개 리포이므로 먼저 GitHub에서 보낸 초대를 수락하고, 터미널에서 `gh auth login`으로 로그인합니다. 다른 설치는 필요 없습니다. 실습은 일정표·모델·보고서이고, 쓰던 스프레드시트가 있으면 함께 씁니다.
+준비물은 [Git](https://git-scm.com/downloads), [GitHub CLI](https://cli.github.com)(`gh`), [Claude Code](https://code.claude.com) 또는 Claude Desktop입니다(Claude 유료 요금제가 필요합니다). 아래 명령은 터미널(macOS 「터미널」 앱, Windows 「PowerShell」)에 입력합니다. Windows에서 바탕화면이 OneDrive로 옮겨져 있으면 `cd ~/Desktop` 대신 `cd ~/OneDrive/Desktop`일 수 있습니다. 공개 리포라 초대 없이 받을 수 있습니다. 터미널에서 `gh auth login`으로 한 번 로그인합니다. 다른 설치는 필요 없습니다. 실습은 일정표·모델·보고서이고, 쓰던 스프레드시트가 있으면 함께 씁니다.
 
 ```bash
 cd ~/Desktop
